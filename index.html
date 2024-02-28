@@ -7,14 +7,35 @@
     <style>
         body {
             background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/240px-Cat03.jpg');
-            background-size: cover; /* Cover the entire page */
-            background-position: center; /* Center the background image */
-            font-family: Arial, sans-serif; margin: 0; padding: 0;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0;
+            color: #FFFFFF; /* Light text color */
         }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        header { background: #333; color: #fff; padding: 20px 0; text-align: center; }
-        section { margin: 20px 0; }
-        footer { background: #333; color: #fff; text-align: center; padding: 10px 0; }
+        .container, header, footer {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            color: white;
+        }
+        header, section, footer {
+            text-shadow: 2px 2px 4px #000000; /* Text shadow for better readability */
+        }
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+        }
+        header { 
+            background: none; /* Remove if you prefer the semi-transparent look */
+        }
+        section { 
+            margin: 20px 0; 
+        }
+        footer { 
+            background: none; /* Remove if you prefer the semi-transparent look */
+            text-align: center; 
+        }
     </style>
 </head>
 <body>
